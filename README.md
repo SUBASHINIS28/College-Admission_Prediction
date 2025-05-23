@@ -20,8 +20,7 @@ Renamed columns for better readability (e.g., 'GRE Score' → 'GRE')
 Removed unnecessary columns (Serial No.)
 Created a copy of the dataframe and replaced zeros with NaN values where appropriate
 3. Data Visualization
-
-## Created histograms for each feature:
+Created histograms for each feature:
 GRE scores
 TOEFL scores
 University Rating
@@ -44,11 +43,12 @@ Built and trained the final Linear Regression model
 Evaluated model on test data (achieved 82.1% accuracy)
 5. Making Predictions
 Used the trained model to predict admission chances for sample student profiles
-
-## Example predictions:
+Example predictions:
 Student with strong profile: 92.855% chance of admission
 Student with average profile: 73.627% chance of admission
-Machine Learning Concepts Used
+
+## Machine Learning Concepts Used
+
 Supervised Learning (Regression)
 Model Selection and Hyperparameter Tuning
 Cross-validation (5-fold)
