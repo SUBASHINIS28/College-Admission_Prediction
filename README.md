@@ -15,10 +15,12 @@ scikit-learn: For machine learning model development
 Loaded the dataset (admission_predict.csv) with 500 student profiles
 Explored basic dataset information (shape, data types, statistical summary)
 Confirmed dataset has 500 rows with 9 columns and no missing values
+
 2. Data Preprocessing
 Renamed columns for better readability (e.g., 'GRE Score' → 'GRE')
 Removed unnecessary columns (Serial No.)
 Created a copy of the dataframe and replaced zeros with NaN values where appropriate
+
 3. Data Visualization
 Created histograms for each feature:
 GRE scores
@@ -28,6 +30,7 @@ SOP (Statement of Purpose) ratings
 LOR (Letter of Recommendation) ratings
 CGPA values
 Research experience
+
 4. Model Development
 Split data into features (X) and target variable (y)
 Used GridSearchCV to compare 6 different regression algorithms:
@@ -41,6 +44,7 @@ Found Linear Regression performed best (81% accuracy with cross-validation)
 Split data into training (80%) and testing (20%) sets
 Built and trained the final Linear Regression model
 Evaluated model on test data (achieved 82.1% accuracy)
+
 5. Making Predictions
 Used the trained model to predict admission chances for sample student profiles
 Example predictions:
@@ -50,9 +54,14 @@ Student with average profile: 73.627% chance of admission
 ## Machine Learning Concepts Used
 
 Supervised Learning (Regression)
+
 Model Selection and Hyperparameter Tuning
+
 Cross-validation (5-fold)
+
 Train-test splitting
+
 Model evaluation metrics
+
 Feature importance analysis (implicit in linear regression)
 This project follows standard machine learning practices and successfully demonstrates how to build a regression model for educational predictions with good accuracy.
