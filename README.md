@@ -1,4 +1,4 @@
-# College Admission Prediction Project Analysis
+# Graduate Admission Predictions
 ## Project Overview
 This project builds a machine learning model to predict the chances of admission to graduate programs based on various student academic metrics. It follows a complete data science workflow from data exploration to making predictions.
 
