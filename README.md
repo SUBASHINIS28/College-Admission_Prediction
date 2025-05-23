@@ -2,14 +2,15 @@
 ## Project Overview
 This project builds a machine learning model to predict the chances of admission to graduate programs based on various student academic metrics. It follows a complete data science workflow from data exploration to making predictions.
 
-##Technology Stack Used
+## Technology Stack Used
 Programming Language: Python
 Libraries:
 pandas: For data manipulation and analysis
 numpy: For numerical operations
 matplotlib: For data visualization
 scikit-learn: For machine learning model development
-##Process and Methodology
+
+## Process and Methodology
 1. Data Acquisition and Exploration
 Loaded the dataset (admission_predict.csv) with 500 student profiles
 Explored basic dataset information (shape, data types, statistical summary)
@@ -19,7 +20,8 @@ Renamed columns for better readability (e.g., 'GRE Score' → 'GRE')
 Removed unnecessary columns (Serial No.)
 Created a copy of the dataframe and replaced zeros with NaN values where appropriate
 3. Data Visualization
-Created histograms for each feature:
+4. 
+## Created histograms for each feature:
 GRE scores
 TOEFL scores
 University Rating
@@ -42,7 +44,8 @@ Built and trained the final Linear Regression model
 Evaluated model on test data (achieved 82.1% accuracy)
 5. Making Predictions
 Used the trained model to predict admission chances for sample student profiles
-Example predictions:
+
+##Example predictions:
 Student with strong profile: 92.855% chance of admission
 Student with average profile: 73.627% chance of admission
 Machine Learning Concepts Used
